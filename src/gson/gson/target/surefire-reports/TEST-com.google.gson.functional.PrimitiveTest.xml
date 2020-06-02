@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="99" failures="0" name="com.google.gson.functional.PrimitiveTest" time="0.018" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/pooria/Documents/repos/Model-generator/src/gson-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pooria/Documents/repos/Model-generator/src/gson-master"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/f5/s1nzh6952gx5xjqgm27p73s00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/pooria/maven/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pooria/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pooria"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="pooria"/>
+    <property name="java.class.path" value="/Users/pooria/maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f gson test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="/Users/pooria/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/pooria/maven/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsBigDecimal" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigIntegerAsLong" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testLongAsStringDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalPreservePrecisionSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testSmallValueForBigDecimalDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatNaNSerializationNotSupportedByDefault" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsLongWrapper" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsShortWrapper" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsDoubleWrapper" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigDecimalAsFloat" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNumberDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testMoreSpecificSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testUnquotedStringDeserializationFails" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigIntegerAsBigDecimal" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testQuotedStringSerializationAndDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigDecimalAsIntegerFails" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsBigInteger" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalNaNDeserializationNotSupported" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigDecimalAsBigIntegerFails" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsFloatWrapper" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsInt" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testReallyLongValuesDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinityFloatSerializationNotSupportedByDefault" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalInASingleElementArraySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNumberAsStringDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsInteger" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigIntegerAsInteger" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testSmallValueForBigIntegerDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinityFloatDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBadValueForBigIntegerDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testHtmlCharacterSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testLargeDoubleDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleNaNSerializationNotSupportedByDefault" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveBooleanAutoboxedInASingleElementArraySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsFloatPrimitive" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testValueVeryCloseToZeroIsZero" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveBooleanAutoboxedSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveLongAutoboxedDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleInfinitySerializationNotSupportedByDefault" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinityDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testSmallValueForBigIntegerSerialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinitySerializationNotSupportedByDefault" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalNegativeInfinityDeserializationNotSupported" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsDoublePrimitive" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testSmallValueForBigDecimalSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNumberSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalAsStringRepresentationDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsByteWrapper" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalInfinityDeserializationNotSupported" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatNaNSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsBooleanPrimitive" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testByteDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveIntegerAutoboxedDeserialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsBooleanWrapper" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleNoFractAsStringRepresentationDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingBigDecimalAsDouble" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigIntegerDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalNoFractAsStringRepresentationDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testReallyLongValuesSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsBytePrimitive" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveDoubleAutoboxedSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsBigDecimal" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinitySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatInfinitySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatNaNDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleNaNDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigIntegerInASingleElementArraySerialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveDoubleAutoboxedDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testStringsAsBooleans" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigIntegerSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingDecimalPointValueZeroSucceeds" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testLongAsStringSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleArrayDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsBigInteger" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializePrimitiveWrapperAsObjectField" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveClassLiteral" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testByteSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testNegativeInfinityFloatSerialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveIntegerAutoboxedSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testShortSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveIntegerAutoboxedInASingleElementArraySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatInfinitySerializationNotSupportedByDefault" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleInfinityDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBigDecimalPreservePrecisionDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonArrayAsNumber" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleNaNSerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testBooleanDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveLongAutoboxedInASingleElementArraySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializingNonZeroDecimalPointValuesAsIntegerFails" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testFloatInfinityDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsNumber" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleInfinitySerialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveDoubleAutoboxedInASingleElementArraySerialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsShortPrimitive" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testPrimitiveLongAutoboxedSerialization" time="0.001"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDoubleAsStringRepresentationDeserialization" time="0"/>
+  <testcase classname="com.google.gson.functional.PrimitiveTest" name="testDeserializeJsonObjectAsLongPrimitive" time="0"/>
+</testsuite>
