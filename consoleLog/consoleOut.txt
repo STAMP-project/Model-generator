@@ -1,0 +1,4 @@
+application : gson
+package : com.google.gson
+gson-2.8.7-SNAPSHOT-tests.jar
+gson-2.8.7-SNAPSHOT.jar

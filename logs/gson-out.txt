@@ -1,0 +1,374 @@
+15:32:54,268 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:32:54,268 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:32:54,268 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/model-generation/libs/model-generation.jar!/logback.xml]
+15:32:54,282 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1996cd68 - URL [jar:file:/model-generation/libs/model-generation.jar!/logback.xml] is not of type file
+15:32:54,322 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:32:54,326 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:32:54,330 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:32:54,347 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:32:54,391 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:32:54,391 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR]
+15:32:54,394 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:32:54,394 |-ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+15:32:54,395 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:32:54,395 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+15:32:54,395 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR] to Logger[ROOT]
+15:32:54,396 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite] to OFF
+15:32:54,396 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [evo_logger] to OFF
+15:32:54,396 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:32:54,397 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3339ad8e - Registering current configuration as safe fallback point
+
+15:32:54.520 [main] INFO  e.s.b.c.a.classpath.CPAnalyzer - Calculate inheritance hierarchy[/model-generation/bins/gson/gson-2.8.7-SNAPSHOT-tests.jar, /model-generation/bins/gson/gson-2.8.7-SNAPSHOT.jar, /model-generation/bins/gson]
+15:33:10.674 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.CollectionTest.
+15:33:23.903 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:24.324 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:27.019 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:27.504 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:28.215 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:29.059 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:29.169 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:29.471 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:29.946 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapTest.
+15:33:52.647 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.InheritanceTest.
+15:34:20.597 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.PrettyPrintingTest.
+15:34:23.476 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.TypeVariableTest.
+15:34:23.795 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.TypeVariableTest.
+15:34:39.228 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.ObjectTypeAdapterTest.
+15:34:51.854 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.CircularReferenceTest.
+15:34:52.155 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.CircularReferenceTest.
+15:34:56.945 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapAsArrayTypeAdapterTest.
+15:34:57.006 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.MapAsArrayTypeAdapterTest.
+15:35:10.338 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.TypeHierarchyAdapterTest.
+15:35:19.396 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.ConcurrencyTest.
+15:35:19.758 [main] WARN  e.s.b.m.g.t.c.CarvingRunListener - Error in capturing log of class com.google.gson.functional.ConcurrencyTest.
+15:35:39.533 [main] INFO  e.s.b.m.g.t.carving.CarvingManager - Executed 1015/1063 test cases while carving.
+15:35:39.534 [main] INFO  e.s.b.m.g.a.t.DynamicAnalyser - Test carving is finished.
+15:35:39.534 [main] INFO  e.s.b.m.g.a.t.DynamicAnalyser - Collecting the call sequences.
+15:35:41.150 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$BagOfPrimitives
+15:35:41.944 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CollectionTest$HasArrayListField
+15:35:42.079 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.NullObjectAndFieldTest$ClassWithNullWrappedPrimitive
+15:35:42.270 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.ConcurrentHashMap
+15:35:42.426 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.atomic.AtomicLongArray
+15:35:42.663 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Arrays
+15:35:43.310 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.CountDownLatch
+15:35:43.554 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.text.DateFormat
+15:35:43.916 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.annotations.Since
+15:35:44.026 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.IOException
+15:35:44.257 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$MyParameterizedMap
+15:35:44.409 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Class
+15:35:46.431 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$ArrayOfArrays
+15:35:46.593 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.SortedMap
+15:35:46.738 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.atomic.AtomicBoolean
+15:35:46.941 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.ParameterizedTypeFixtures$MyParameterizedTypeAdapter
+15:35:47.705 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.regression.JsonAdapterNullSafeTest$Device
+15:35:47.813 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Number
+15:35:48.080 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeVariableTest$Bar
+15:35:48.186 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.SortedSet
+15:35:48.421 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.Executors
+15:35:48.521 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.reflect.UnsafeReflectionAccessor
+15:35:48.663 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.ByteArrayInputStream
+15:35:48.756 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Long
+15:35:49.099 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.annotations.JsonAdapter
+15:35:49.221 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonSerializer
+15:35:49.332 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.JsonTreeReader
+15:35:54.720 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.FieldExclusionTest$Outer$Inner
+15:35:54.930 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Byte
+15:35:55.159 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonObject
+15:36:00.833 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CollectionTest$SmallClass
+15:36:00.944 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.net.URI
+15:36:01.109 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.ConstructorConstructor
+15:36:02.915 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeVariableTest$Blue
+15:36:03.198 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.ObjectTypeAdapterTest$RuntimeType
+15:36:03.340 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedHashTreeMap
+15:36:05.880 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest$UserFieldAnnotationAdapter
+15:36:06.069 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonTreeTest$SubTypeOfBagOfPrimitives
+15:36:06.217 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeHierarchyAdapterTest$Manager
+15:36:06.343 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.TypeAdapterFactory
+15:36:06.492 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonParseException
+15:36:06.610 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.ExclusionStrategy
+15:36:06.787 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$HasObjectMap
+15:36:06.920 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$PrimitiveArray
+15:36:07.232 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.lang.StackTraceElement;
+15:36:07.389 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.NamingPolicyTest$ClassWithDuplicateFields
+15:36:07.547 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.EnumTest$MyEnum
+15:36:07.673 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$Nested
+15:36:08.111 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeTokenTest$2
+15:36:08.225 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$NullableClassJsonAdapter
+15:36:08.389 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.UUID
+15:36:08.783 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.EnumTest$Gender
+15:36:08.893 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeTokenTest$4
+15:36:09.012 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.MoreAsserts
+15:36:10.741 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.atomic.AtomicIntegerArray
+15:36:11.039 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TreeTypeAdaptersTest$Id
+15:36:11.198 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model org.junit.Assume
+15:36:11.314 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.math.BigInteger;
+15:36:11.463 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.ThreadLocal
+15:36:11.691 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.$Gson$Types
+15:36:17.689 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.StreamingTypeAdaptersTest$Truck
+15:36:17.828 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.Array
+15:36:18.127 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterSerializerDeserializerTest$Container
+15:36:18.257 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.List
+15:36:19.589 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedHashTreeMap$AvlBuilder
+15:36:19.819 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeVariableTest$Foo
+15:36:19.942 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$Product
+15:36:20.218 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonPrimitive
+15:36:26.212 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomTypeAdaptersTest$StringHolder
+15:36:26.344 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapAsArrayTypeAdapterTest$PointWithProperty
+15:36:26.482 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$MapWithGeneralMapParameters
+15:36:26.607 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.JsonTreeWriter
+15:36:29.354 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.EnumSet
+15:36:29.546 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$MyMap
+15:36:29.721 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$3
+15:36:29.804 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithNoFields
+15:36:29.920 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.sql.Timestamp
+15:36:30.071 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.ArrayList
+15:36:30.472 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.sql.Time
+15:36:30.531 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.DateTypeAdapter
+15:36:31.101 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.PreJava9DateFormatProvider
+15:36:31.217 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.ParameterizedTypeFixtures$MyParameterizedType
+15:36:31.526 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedTreeMap
+15:36:34.108 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$FooJsonAdapter
+15:36:34.212 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Comparator
+15:36:34.285 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$1
+15:36:34.365 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.InheritanceTest$SubTypeOfNested
+15:36:34.540 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory
+15:36:35.043 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeHierarchyAdapterTest$Employee
+15:36:35.121 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.stream.JsonToken
+15:36:35.253 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonSyntaxException
+15:36:35.492 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ParameterizedTypesTest$ObjectWithTypeVariables
+15:36:35.651 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.DefaultTypeAdaptersTest$ClassWithBigInteger
+15:36:35.757 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.TreeTypeAdapter
+15:36:36.183 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.stream.JsonWriter
+15:36:40.484 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ConcurrencyTest$MyObject
+15:36:40.546 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.atomic.AtomicLong
+15:36:40.615 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.Primitives
+15:36:41.186 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TreeTypeAdaptersTest$Course
+15:36:41.443 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.stream.MalformedJsonException
+15:36:41.560 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.NullObjectAndFieldTest$ObjectWithField
+15:36:41.692 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomTypeAdaptersTest$Base
+15:36:41.820 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonElement
+15:36:43.405 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeTokenTest$1
+15:36:43.565 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.StringBuffer
+15:36:43.731 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.UnsafeAllocator
+15:36:43.941 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Character
+15:36:44.457 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.StringWriter
+15:36:44.638 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter
+15:36:45.708 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$ClassWithObjectField
+15:36:45.842 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.LinkedHashMap
+15:36:46.134 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.StreamingTypeAdaptersTest$Node
+15:36:46.261 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.DefaultTypeAdaptersTest$ClassWithUrlField
+15:36:46.621 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.JavaVersion
+15:36:47.032 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Exception
+15:36:47.371 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.GsonTypeAdapterTest$Concrete
+15:36:47.486 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.TypeAdapter
+15:36:48.300 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.math.BigDecimal
+15:36:48.550 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.stream.JsonReader
+15:36:56.826 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.StreamingTypeAdaptersTest$7
+15:36:56.994 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.RuntimeTypeAdapterFactoryFunctionalTest$Square
+15:36:57.123 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Calendar
+15:36:57.326 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.DefaultTypeAdaptersTest$ClassWithBigDecimal
+15:36:57.706 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.util.ArrayList;
+15:36:57.865 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.Gson
+15:37:09.102 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.UncategorizedTest$OperationType
+15:37:09.288 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.Field
+15:37:10.268 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CollectionTest$BigClass
+15:37:10.449 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$UserJsonAdapter
+15:37:10.709 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Properties
+15:37:10.968 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Collections
+15:37:11.421 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.metrics.PerformanceTest$ClassWithList
+15:37:11.550 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.RawSerializationTest$Bar
+15:37:11.690 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.GenericArrayType
+15:37:11.876 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest$PartJsonFieldAnnotationAdapter
+15:37:12.036 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ParameterizedTypesTest$Amount
+15:37:12.143 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.net.InetAddress
+15:37:12.294 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.RuntimeTypeAdapterFactoryFunctionalTest$RuntimeTypeAdapterFactory
+15:37:12.783 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonSerializationContext
+15:37:12.979 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.annotations.Until
+15:37:13.081 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.Constructor
+15:37:13.244 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$Parent
+15:37:13.366 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Map
+15:37:14.405 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.Writer
+15:37:14.932 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ArrayOfObjects
+15:37:15.167 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.TimeTypeAdapter
+15:37:16.122 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.PriorityQueue
+15:37:16.298 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.ParameterizedType
+15:37:16.923 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.ObjectOutputStream
+15:37:17.142 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.NullObjectAndFieldTest$ClassWithInitializedMembers
+15:37:17.276 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.NullObjectAndFieldTest$ClassWithMembers
+15:37:17.419 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonDeserializer
+15:37:17.566 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.SqlDateTypeAdapter
+15:37:18.542 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.HashSet
+15:37:18.717 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Lcom.google.gson.common.TestTypes$Base;
+15:37:18.839 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.math.BigDecimal;
+15:37:19.000 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.util.List;
+15:37:19.167 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeToken
+15:37:22.344 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithSerializedNameFields
+15:37:22.614 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Float
+15:37:22.977 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.String
+15:37:25.019 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.GsonTypeAdapterTest$1
+15:37:25.154 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model org.junit.rules.ExpectedException
+15:37:25.353 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.VersioningTest$SinceUntilMixing
+15:37:25.497 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.ObjectInputStream
+15:37:25.659 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Math
+15:37:25.937 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.text.ParseException
+15:37:26.102 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.stream.JsonReaderPathTest$Factory
+15:37:26.231 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.Excluder
+15:37:27.177 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.RuntimeTypeAdapterFactoryFunctionalTest$Circle
+15:37:27.327 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MoreSpecificTypeSerializationTest$ClassWithContainersOfParameterizedBaseFields
+15:37:27.493 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.ReflectiveTypeAdapterFactory
+15:37:28.530 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Random
+15:37:28.676 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CollectionTest$19
+15:37:28.809 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.CharArrayWriter
+15:37:29.021 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ConcurrencyTest
+15:37:29.259 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Map$Entry
+15:37:29.685 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithArray
+15:37:29.873 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.lang.reflect.Type;
+15:37:31.618 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CollectionTest$ObjectWithWildcardCollection
+15:37:31.815 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter
+15:37:32.049 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonStreamParser
+15:37:32.743 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.RuntimeTypeAdapterFactoryFunctionalTest$ShapeType
+15:37:32.942 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.ConcurrentSkipListMap
+15:37:33.148 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.StreamingTypeAdaptersTest$2
+15:37:33.288 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.TreeSet
+15:37:33.528 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeHierarchyAdapterTest$Company
+15:37:33.680 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.LinkedList
+15:37:33.869 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$Foo
+15:37:34.114 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.TypeHierarchyAdapterTest$CEO
+15:37:34.249 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.annotations.SerializedName
+15:37:34.394 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithObjects
+15:37:34.588 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.System
+15:37:34.840 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MoreSpecificTypeSerializationTest$ClassWithContainersOfBaseFields
+15:37:34.975 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$ClassWithEmptyStringFields
+15:37:35.110 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CircularReferenceTest$ContainsReferenceToSelfType
+15:37:35.249 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithTransientFields
+15:37:35.553 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.FieldNamingStrategy
+15:37:35.678 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Integer
+15:37:36.158 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithBaseField
+15:37:36.361 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Vector
+15:37:36.549 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.reflect.ReflectionAccessor
+15:37:36.793 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Lcom.google.gson.common.TestTypes$BagOfPrimitives;
+15:37:36.987 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.OutOfMemoryError
+15:37:37.142 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$Parent$Child
+15:37:37.284 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.Streams
+15:37:41.052 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.$Gson$Preconditions
+15:37:43.540 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.EnumTest$Color
+15:37:43.657 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.Reader
+15:37:43.810 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.InstanceCreator
+15:37:43.935 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.ParameterizedTypeFixtures$MyParameterizedTypeInstanceCreator
+15:37:44.379 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ObjectTest$ClassWithCollectionField
+15:37:44.507 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$A$JsonAdapter
+15:37:44.680 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Object
+15:37:45.431 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.MapTypeAdapterFactory
+15:37:46.060 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.text.ParsePosition
+15:37:46.221 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ThrowableFunctionalTest$MyException
+15:37:46.337 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.PrettyPrintingTest$ClassWithMap
+15:37:46.450 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.TypeAdapters
+15:37:47.230 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Currency
+15:37:47.376 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonParser
+15:37:47.657 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.util.ISO8601Utils
+15:37:48.179 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.RuntimeException
+15:37:48.303 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithBaseCollectionField
+15:37:48.603 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonNull
+15:37:49.837 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter
+15:37:49.974 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassOverridingEquals
+15:37:50.182 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.InstanceCreatorTest$4
+15:37:50.291 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.Gson$FutureTypeAdapter
+15:37:50.453 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.CollectionTypeAdapterFactory
+15:37:51.004 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$BaseSerializer
+15:37:51.106 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CircularReferenceTest$ClassWithSelfReferenceArray
+15:37:51.258 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeTokenTest$5
+15:37:51.368 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomTypeAdaptersTest$Foo
+15:37:51.689 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.AssertionError
+15:37:51.872 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.DefaultDateTypeAdapter
+15:37:52.894 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithCustomTypeConverter
+15:37:53.288 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.ByteArrayOutputStream
+15:37:53.418 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.AccessibleObject
+15:37:53.512 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonDeserializationContext
+15:37:53.688 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomDeserializerTest$DataHolder
+15:37:53.874 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ExposeFieldsTest$ClassWithExposedFields
+15:37:54.227 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ParameterizedTypesTest$MultiParameters
+15:37:54.367 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.GregorianCalendar
+15:37:55.051 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Double
+15:37:55.733 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [[Lcom.google.gson.common.TestTypes$BagOfPrimitives;
+15:37:55.916 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField
+15:37:56.171 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.FieldAttributes
+15:37:57.039 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.LongSerializationPolicy
+15:37:57.162 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$ClassWithBaseArrayField
+15:37:57.567 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model org.junit.Assert
+15:37:58.930 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.ConcurrentNavigableMap
+15:37:59.121 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MoreSpecificTypeSerializationTest$ClassWithBaseFields
+15:37:59.262 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Appendable
+15:37:59.423 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest$UserClassAnnotationAdapter
+15:37:59.603 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.GsonBuilder
+15:38:02.004 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedHashTreeMap$AvlIterator
+15:38:02.269 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$BagOfPrimitiveWrappers
+15:38:02.468 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Collection
+15:38:02.906 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.CharArrayReader
+15:38:02.995 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Error
+15:38:03.197 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.annotations.Expose
+15:38:03.380 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.StringReader
+15:38:03.478 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.JsonAdapterAnnotationOnClassesTest$2
+15:38:03.598 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Locale
+15:38:04.043 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Set
+15:38:04.270 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedTreeMap$Node
+15:38:04.548 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.io.PrintStream
+15:38:04.720 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.StringTokenizer
+15:38:04.902 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.InvocationTargetException
+15:38:05.003 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Comparable
+15:38:05.102 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LazilyParsedNumber
+15:38:06.614 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$Base
+15:38:06.706 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.metrics.PerformanceTest$ClassWithListOfObjects
+15:38:06.812 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model [Ljava.lang.Object;
+15:38:06.911 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.regex.Pattern
+15:38:07.187 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.LinkedHashTreeMap$Node
+15:38:07.536 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$ClassWithAMap
+15:38:07.663 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.StringBuilder
+15:38:09.128 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$StringWrapper
+15:38:09.247 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.reflect.TypeTokenTest$6
+15:38:09.368 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ExposeFieldsTest$ClassWithNoExposedFields
+15:38:09.503 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.JsonReaderInternalAccess
+15:38:09.636 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$MapClass
+15:38:09.872 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.Method
+15:38:10.049 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.TypeVariable
+15:38:10.217 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$SubSerializer
+15:38:10.351 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.EnumTest$Roshambo
+15:38:10.607 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.InstanceCreatorTest$6
+15:38:10.742 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.EnumTest$ClassWithEnumFields
+15:38:11.034 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.InterfaceTest$TestObjectWrapper
+15:38:11.183 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Iterator
+15:38:11.433 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.VersioningTest$Version1
+15:38:11.563 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.sql.Date
+15:38:11.669 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CircularReferenceTest$ClassWithSelfReference
+15:38:11.815 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.TimeZone
+15:38:12.227 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.JsonArray
+15:38:16.955 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.ExecutorService
+15:38:17.038 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomTypeAdaptersTest$Derived
+15:38:17.133 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Iterable
+15:38:17.206 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomTypeAdaptersTest$DataHolderWrapper
+15:38:17.305 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.ConcurrentMap
+15:38:17.441 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.SerializedNameTest$MyClass
+15:38:17.531 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.InheritanceTest$ClassWithSubInterfacesOfCollection
+15:38:17.802 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Stack
+15:38:17.914 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ExposeFieldsTest$ClassWithInterfaceField
+15:38:18.060 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.BitSet
+15:38:18.249 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.reflect.Modifier
+15:38:18.372 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.math.BigInteger
+15:38:18.595 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomDeserializerTest$SubTypes
+15:38:18.703 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.ObjectTypeAdapter
+15:38:20.133 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.CustomDeserializerTest$DataHolderWrapper
+15:38:20.284 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Short
+15:38:20.388 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.HashMap
+15:38:20.732 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MoreSpecificTypeSerializationTest$ClassWithParameterizedBaseFields
+15:38:20.829 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper
+15:38:21.013 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.text.SimpleDateFormat
+15:38:21.113 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.common.TestTypes$Sub
+15:38:21.189 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.net.URL
+15:38:21.351 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Enum
+15:38:21.410 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.lang.Boolean
+15:38:21.698 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.PrimitiveTypeAdapter
+15:38:21.796 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.MapTest$29
+15:38:21.882 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Date
+15:38:22.238 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.Queue
+15:38:22.368 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.internal.ObjectConstructor
+15:38:22.441 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model com.google.gson.functional.ExclusionStrategyFunctionalTest$SampleObjectForTest
+15:38:22.834 [main] INFO  e.s.b.m.g.model.ModelGenerator - Printing model java.util.concurrent.atomic.AtomicInteger
